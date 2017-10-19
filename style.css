@@ -1,0 +1,9 @@
+/*styles*/
+
+input:valid {
+    background-color: #93EA93;
+}
+input:invalid {
+    background-color: #E79C9D;
+    
+}

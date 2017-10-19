@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>form exc2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>form exc3</h1>
+        <h2>application form</h2>
+    </header>
+    <form action="">
+        <fieldset>
+            <br>
+            <legend>basic information</legend>
+            <label for="name">name:</label>
+            <input type="name" name="name" id="name" placeholder="" required maxlength="30">
+            <br>
+            
+            <label for="email">email:</label>
+            <input type="email" name="email" id="email" placeholder="email here" required maxlength="30">
+            <br>
+            <br>
+            <label for="pass">your password</label>
+            <input type="password" name="pass" id="pass" required>
+            <br>
+            <br>
+            <label for="pass2">password again:</label>
+            <input type="password" name="pass2" id="pass2" required>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>more information</legend>
+            <label for="age">your age</label>
+            <input type="number" name="age" id="age" min="1" max="120">
+            <br>
+            <br>
+            <input type="radio" name="status" id="married" value="married">
+            <label for="married">married</label>
+            <br>
+            <input type="radio" name="status" id="single" value="single">
+            <label for="single">single</label>
+            <br>
+            <input type="radio" name="status" id="divorced" value="divorced">
+            <label for="divorced">divorced</label>
+            <br>
+            <br>
+            <label for="hobby">your hobbies</label>
+            <br>
+            <br>
+            <select name="hobby" id="hobby" multiple>
+                <option value="playing">playing</option>
+                <option value="drawing">drawing/option>
+                <option value="running">running</option>
+    </select>
+    <br>
+    <input type="hidden" name="hidden" id="hidden" value="W24LCH">
+        </fieldset>
+        <fieldset>
+            <br>
+            <input type="file" name="image" id="image" accept="image/*">
+            <br>
+            <br>
+            <textarea id=”comments” rows=”5” cols=”10”></textarea>
+            <br>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>finish</legend>
+            <input type="submit" value="send">
+            <button type="reset">clear </button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
